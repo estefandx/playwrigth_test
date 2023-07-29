@@ -1,0 +1,18 @@
+plugins {
+    id 'java'
+}
+
+group 'com.diplearn'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+
+dependencies {
+    testImplementation group: 'org.testng', name: 'testng', version: '7.8.0'
+    implementation group: 'com.microsoft.playwright', name: 'playwright', version: '1.28.1'
+
+}
+
